@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript - To Do List</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<h1 class="title">Todo App</h1>
+<body>
+    <div class="container " >
+        <div class="first">
+            <div class="second">
+              <div class="fourth " >
+                  <form >
+                        <label for="start">Date:</label>
+
+                        <input type="date" id="SetDate" name="date" value="yyyy-MM-dd">
+                            
+                            
+                        <div class="input-group mb-3">
+                            
+                          <input name="todoText" id ="todoText" type="text" class="form-control" placeholder="New Todo ...">
+                        <div class="input-group-append">
+                         <button class="btn btn-outline-secondary " type="submit" >Add</button>
+                        </div>
+                       </div>
+                        
+                    </form>
+    
+        <p class="fifth" id = "titleHere"><div id="titled">No Tasks</div></p>
+        <button class="btn btn-outline-secondary btn-sm" type="sortDate" id="sortDate">Sort tasks by date</button>
+        <br><br>
+        <div class="sixth">
+            <div class="todoList">
+                <ul>
+                </ul>
+                <button class="btn btn-outline-secondary btn-sm" type="dueDate" id="dueDate">Due soon Tasks</button>
+                <button class="btn btn-outline-secondary btn-sm" type="upcoming" id="upcoming">Upcoming Tasks</button>
+                <br><br>
+                <button class="btn btn-outline-secondary" type="showList" id="showList">Display All Tasks</button>
+                <button class="btn btn-outline-secondary" type="clear" id="clear">Clear</button>
+            </div>
+
+
+    </div>
+    <script type="module" defer src="js/app.js"></script>
+    <!-- <script src="lib/moment/moment.min.js"></script> -->
+    <script type="module" defer src="js/modules/date.js"></script>
+    <!--<script type="module" defer src="modules/title.js"></script>-->
+    
+</body>
+</html>
