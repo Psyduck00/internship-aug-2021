@@ -1,5 +1,5 @@
 # Installing and updating pip
-##-m pip install --upgrade pip
+## -m pip install --upgrade pip
 
 # Checking the version of pip
 ## py  -m pip --version
